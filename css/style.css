@@ -1,0 +1,153 @@
+/*FONTS*/
+
+/*@font-face {
+    font-family: OpenSans;
+    font-style: Light;
+    font-weight: 300;
+    src: url(fonts/OpenSans-Light.ttf);
+            }
+
+@font-face {
+    font-family: OpenSans;
+    font-style: Bold;
+    font-weight: 700;
+    src: url(fonts/OpenSans-Bold.ttf);
+            }*/
+
+/*GLOBAL CSS*/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: OpenSans, sans-serif;*/
+}
+
+/*_____________________________________________________________ */       
+
+/*________________ HEADER AND FOOTER _______________________*/
+
+header {
+    position: relative;
+    width: 100%;
+    height: 5.5em;
+    background-color: black;
+}
+
+header img {
+     position: absolute;
+     top: 10%;
+     left: 1%;
+     height: 80%;
+ }
+
+#login_nav {
+    position: absolute;
+    /*border: 1px solid red;*/
+    line-height: 5.5em;
+    right: 5%;
+}
+
+#login_nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5px;
+    /*padding: 0 3%;*/
+}
+
+#login_nav a {
+     color: white;
+     font-family: sans-serif;
+     text-decoration: none;
+     transition-duration: .5s;
+ }
+ 
+#login_nav a:hover {
+     color: yellow;
+     transition-duration: .5s;
+ }
+
+/*________________ LOGIN FORM _______________________*/
+
+.login_form {
+    width: 20%;
+    margin: 10% auto;
+}
+
+/*________________ ADMIN STATS & NAVIGATION _______________________*/
+
+#admin_stats{
+    width: 80%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+#admin_stats div {
+    display: inline-block;
+    margin: 0% 5% 0% 5%;    
+}
+
+#admin_nav {
+    width: 80%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+#admin_nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0% 2% 0% 2%;
+}
+
+#admin_nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#admin_nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/*________________ TABLES _______________________*/
+
+table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, tr, td{
+    border: 1px solid #777;
+}
+
+tr{
+    display: table-row;
+}
+
+td, th{
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #777;
+}
+
+/*________________ ADD & EDIT FORMS _______________________*/
+
+.product {
+    width: 20%;
+    margin: 5% auto;
+    /*border: 1px solid red;*/
+}
+
+.category_form {
+    width: 20%;
+    margin: 5% auto;
+    /*border: 1px solid red;*/
+}
+
+.customer_form {
+    width: 20%;
+    margin: 5% auto;
+    /*border: 1px solid red;*/
+}
